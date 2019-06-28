@@ -20,7 +20,7 @@ attr_writer :roster
     roster.values_at(grade).flatten
   end
 
-  def sort(roster)
+  def sort()
     @roster.sort
   end
 
