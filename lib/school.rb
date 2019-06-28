@@ -24,7 +24,7 @@ attr_writer :roster
     @roster.each do |grade, name|
       sorted = @roster[grade].sort
     end
-    return stored
+    return sorted
   end
 
 end
