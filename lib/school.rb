@@ -21,6 +21,7 @@ attr_writer :roster
   end
 
   def sort
+    sorted = {}
     @roster.each do |grade, name|
       sorted = @roster[grade].sort
     end
