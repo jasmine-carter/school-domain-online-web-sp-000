@@ -2,7 +2,6 @@ class School
 attr_reader :roster
 attr_writer :roster
 
-test = "test"
   def initialize(name)
     @name = name
     @roster = {}
@@ -21,7 +20,7 @@ test = "test"
     roster.values_at(grade).flatten
   end
 
-  def sort(test)
+  def sort(roster)
     @roster.sort
   end
 
